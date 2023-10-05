@@ -1,0 +1,123 @@
+<html class= "html_N">
+
+
+<head>
+  <Title> Muzej X </Title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<script type=”application/ld+json”>
+  {
+    “@context”: “https://schema.org”,
+    “@type”: “WebSite”,
+    “name”: “XMuzej”,
+    “url”: “http://www.xmuzej.rs”,
+    “potentialAction”: {
+      “@type”: “SearchAction”,
+      “target”: “http://www.xmuzej.com/pretraga?q={search_term_string}”,
+      “query-input”: “required name=search_term_string”
+    },
+    “description”: “Online sajt novog muzeja u Srbiji.”,
+    “publisher”: {
+      “@type”: “Organization”,
+      “name”: “XMuzej”,
+      “logo”: {
+        “@type”: “ImageObject”,
+        “url”: “http://www.xmuzej.com/logo.png”,
+        “width”: 1920,
+        “height”: 1080
+      }
+    },
+    “sameAs”: [
+      “http://www.facebook.com/XMuzej”,
+      “http://www.twitter.com/XMuzej”,
+      “http://www.instagram.com/XMuzej”
+    ]
+  }
+  </script>
+</head>
+
+  <body>
+
+    <header>
+
+      <div class="header"></div>
+      <img id="meni-bar" src="Ikonice/Ham.png">
+        <a href="Home_page.html" class="logo"><img src="Ikonice/Logo.png"  alt="Logo sjata"></a>
+        <nav class="navigacioni-bar">
+            <a href="Home_page.html">POČETNA</a>
+            <a href="Ponude.html">PONUDE</a>
+            <a href="Obilasci.html">OBILASCI</a>
+            <a href="Galerija.html">KOLEKCIJE</a>
+            <a href="Recenzije.html">RECENZIJE</a>
+            <a href="O_nama.html">O NAMA</a>
+            <a><button id="darkModeToggle"><img src="Ikonice/dark.png"></button></a>
+        </nav>
+    
+      </header>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class = "naslov">
+        <h1>NEMANJIćI</h1>
+        </div>
+<div>
+<p class="text">Ovde je moguće pogledati neke od najpopularnijih artifakta u kolekciji muzeja.</p>
+<p class="text">Ovo nije puna kolekcija artifakta.</p>
+</div>
+<br>
+
+   <div >
+    <div class="image-left">
+      <img  src="Slike/Srednji vek/Nemanjici.JPG" alt="Opis slike 1" float: left>
+      <p class="text">Nemanjići<br>
+        <br>
+  Vaše putovanje počinje u prostoru posvećenom osnivaču dinastije, Velikom Županu Stefanu Nemanji.<br> 
+  Upoznajte se sa njegovim životom i podvizima, kao što je osnivanje manastira Studenice, koji je postao jedan od najznačajnijih kulturnih i verskih centara srednjovekovne Srbije.<br> 
+  Divite se replikama fresaka koje prikazuju scene iz života Svetog Save i drugih članova dinastije.<br>
+  
+  Nastavljajući dalje, stići ćete do prostora posvećenog Nemanjićima kao vladarima i državnicima.<br> 
+  Upoznajte se sa vladavinom Stefana Prvovenčanog, koji je uspešno proširio teritoriju srpske države i dao joj institucionalni okvir.<br> 
+  Istražite periode vladavine kralja Milutina, poznatog po izgradnji ikonostasa u manastiru Gračanica, i kralja Dušana, čija je vladavina obeležena razvojem pravnog sistema, izgradnjom monumentalnih crkava poput manastira Visoki Dečani i stvaranjem Zlatne bule.<br>
+  
+  Dalje, imaćete priliku da se upoznate sa srpskom srednjovekovnom umetnošću koja je cvetala tokom vladavine Nemanjića.<br> 
+  Divite se prelepim freskama i ikonama koje prikazuju svetitelje i scene iz Biblije.<br> 
+  Upoznajte se sa različitim stilovima i tehnikama koje su korišćene u srednjovekovnoj srpskoj umetnosti, kao što su Raški i Makedonski stil.<br>
+  
+  Posvetite vreme odeljku posvećenom srpskoj crkvenoj arhitekturi.<br> 
+  Istražite replike manastira koji su bili centri duhovnog, kulturnog i političkog života, poput manastira Mileševe i Pećke patrijaršije.<br> 
+  Otkrijte simboliku i arhitektonske karakteristike srednjovekovnih srpskih manastira, koji su ostavili neizbrisiv trag na srpskoj istorijskoj sceni.<br>
+  
+  Ovaj obilazak će vam omogućiti da se približite Nemanjićima i da steknete dublje razumevanje njihovog značaja za srpsku istoriju i kulturu.</p>
+    </div>
+    <br>
+    <h2>REZERVACIJA</h2>
+    <br>
+    <label>Naziv institucije:</label><br>
+    <input id="institucija" type="text"><br>
+    <label>Broj ljudi:</label><br>
+    <input id="brLjudi" type="text"><br>
+    <label>Datum rezervacije:</label><br>
+    <input id="datum" type="date"><br><br>
+    <button id="rezervacijaBtn">Rezervisi</button>
+    
+  </div>
+
+   <br>
+   <br>
+
+   <footer>
+    <p class="footer-text">&copy; 2023 Muzej. Sva prava zadržana.</p>
+  </footer>
+
+   
+
+  <script src="rezervacija.js"></script>
+  <script src="Darkmode.js"></script>
+  <script src="Hamburger-meni.js"></script>
+   </body>
+
+</html>
